@@ -11,6 +11,7 @@ pip install zeroc-ice
 pip install mysql-connector-python
 
 lancer le serveur avec la commande suivante :
+
 python server1.py 
 
 python server2.py
@@ -28,20 +29,10 @@ et bien sur vous devez changer les informations de connexion a la base de donné
 
 **cote client :
 vous devez avoir javafx d'installer dans votre machine pour lancer le client.
+
 tout les dependances sont dans le fichier pom.xml
-j'ai utilisé maven pour gerer les dependances avec JDK 17
+
+j'ai utilisé maven pour gerer le projet.
 
 
-
-
-
-
-pour verifier si le port est utilisé ou non :(Windows)
-netstat -ano | findstr :10000
-tasklist | findstr num
-
-
-pour lancer ice grid registry et admin :
-icegridregistry --Ice.Config=registry.config
-icegridadmin --Ice.Config=registry.config
 
