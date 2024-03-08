@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<icegrid>
+    <application name="MusicServiceApp">
+        <server name="Music1Server">
+            <executable>path/to/music1_server.py</executable>
+            <adapter name="Music1Adapter">
+                <endpoint>default -p 10000</endpoint>
+            </adapter>
+        </server>
+        <server name="Music2Server">
+            <executable>path/to/music2_server.py</executable>
+            <adapter name="Music2Adapter">
+                <endpoint>default -p 10001</endpoint>
+            </adapter>
+        </server>
+        <server name="Music3Server">
+            <executable>path/to/music3_server.py</executable>
+            <adapter name="Music3Adapter">
+                <endpoint>default -p 10002</endpoint>
+            </adapter>
+        </server>
+    </application>
+</icegrid>
