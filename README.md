@@ -5,12 +5,16 @@ python -m venv env
 .\env\Scripts\activate
 
 pip install flask ( je l'ai pas utilisé mais je l'ai installé).
+
 pip install zeroc-ice
+
 pip install mysql-connector-python
 
 lancer le serveur avec la commande suivante :
 python server1.py 
+
 python server2.py
+
 python serverVLC.py
 
 
