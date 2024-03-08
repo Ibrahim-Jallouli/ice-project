@@ -4,25 +4,9 @@ vous devez creer une environnement virtuel et installer les dependances suivante
 python -m venv env
 .\env\Scripts\activate
 
-pip install flask ( je l'ai pas utilisé mais je l'ai installé)
+pip install flask ( je l'ai pas utilisé mais je l'ai installé).
 pip install zeroc-ice
 pip install mysql-connector-python
-
-
-
-pour verifier si le port est utilisé ou non :
-
-netstat -ano | findstr :10000
-tasklist | findstr num
-
-
-pour lancer ice grid registry et admin :
-
-icegridregistry --Ice.Config=registry.config
-icegridadmin --Ice.Config=registry.config
-
-
-
 
 lancer le serveur avec la commande suivante :
 python server1.py 
@@ -42,3 +26,18 @@ et bien sur vous devez changer les informations de connexion a la base de donné
 vous devez avoir javafx d'installer dans votre machine pour lancer le client.
 tout les dependances sont dans le fichier pom.xml
 j'ai utilisé maven pour gerer les dependances avec JDK 17
+
+
+
+
+
+
+pour verifier si le port est utilisé ou non :(Windows)
+netstat -ano | findstr :10000
+tasklist | findstr num
+
+
+pour lancer ice grid registry et admin :
+icegridregistry --Ice.Config=registry.config
+icegridadmin --Ice.Config=registry.config
+
