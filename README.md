@@ -4,8 +4,6 @@ vous devez creer une environnement virtuel et installer les dependances suivante
 python -m venv env
 .\env\Scripts\activate
 
-pip install flask ( je l'ai pas utilisé mais je l'ai installé).
-
 pip install zeroc-ice
 
 pip install mysql-connector-python
